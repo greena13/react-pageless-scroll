@@ -5,11 +5,11 @@
 - The dimensions of the the space in which to render the pageless content is known
 - The dimensions of each item of content to be paginated are fixed, known and consistent between items
  
- # How it works
+# How it works
  
 `react-pageless-scroll` is a react component container that accepts your list of content as children and wraps each in a div that it is able to position itself. By specifying the dimensions on the scrollable area and that of each list item, `react-pageless-scroll` is able to position and render only the items on-screen, allowing the user to scroll through incredibly long lists of content without any browser slowdown.
   
-# When should I user react-pageless-scroll?
+# When should I use react-pageless-scroll?
 
 If your users are not experiencing any slowdown scrolling through the content you have, then you should probably not use this module. Browsers are better optimised for translating, scrolling and painting only what is visible in the current window.
 
